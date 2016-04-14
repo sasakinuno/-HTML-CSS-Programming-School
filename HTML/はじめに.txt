@@ -1,0 +1,43 @@
+【講義の内容とゴール】
+
+* 講義：ホームページ（Webサイト）を作る授業
+  ⇛ 全8回で作れるようになっていきましょう。
+
+* ゴール：こんなホームページが作れるようになります。
+  ⇛ 実際作るホームページを見せる
+
+* カリキュラム：HTML・CSSという言語
+  ⇛ 言語は2つだけ。かなり基礎的な内容。
+  ⇛ 実際にブラウザで表示できる（右クリック）
+
+* 困ったらググる
+  ⇛ プログラミングの能力はググる能力と言ってもいいぐらい。
+    ググればたいていは解決します。
+
+* 施設利用の注意事項
+  ⇛ お手洗いは出てすぐのところにあります。(お好きなタイミングでどうぞ)
+  ⇛ 講義中にわからないところがあれば遠慮なく聞いてください。
+    全員がわからないことが無いように進めたいので、私以外も隣の方などに積極的に聞いてください。
+  ⇛ 利用中の施設は普段仕事で使っていますので、置いてあるものには手を触れないようにして下さい。
+  ⇛ 講義は2時間を予定していますが、終わった後にも個別に質問を受付ますので遠慮なくどうぞ。
+
+【環境構築】
+
+* WiFiの設定
+  portinc: hintmay5
+  crunchtimer: crunchtimer
+
+* ブラウザ：Google Chrome（ブラウザによって挙動がまちまちなので）
+
+* エディタ：Atom
+
+* 拡張子：表示のさせ方
+  ググりましょう。
+  mac: http://inforati.jp/apple/mac-tips-techniques/system-hints/how-to-show-the-filename-extension-of-a-file-always-in-macos.html
+  win: https://www.microsoft.com/ja-jp/atlife/tips/archive/windows/tips/252.aspx
+
+* エディタの設定
+  ⇛ ファイルのエンコーディングをUTF8
+  ⇛ [Show Line Numbers]
+  ⇛ japanese-wrap
+  ⇛ Tree-Viewの設定（パッケージ -> Tree View -> Toggle）
