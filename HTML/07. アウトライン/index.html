@@ -1,11 +1,12 @@
 <!--
-アウトライン（構造）
+【アウトライン（構造）】
     header: ヘッダー
     footer: フッター
     nav: ナビゲーション
-    article: 独立しているコンテンツ
-    aside: 副次的なコンテンツ
+    main: メインコンテンツ
     section: それ以外の情報の塊
+    article: 独立しているコンテンツ（ブログなど）
+    aside: 副次的なコンテンツ（サイドバーなど）
     h1 - h6: 見出し
 -->
 
@@ -13,7 +14,8 @@
 <html lang="ja">
 <head>
     <meta charset="utf8">
-    <title>プログラミング勉強サイト</title>
+    <meta name="description" content="初めてHTMLを勉強するサイトです。">
+    <title>プログラミングの勉強</title>
 </head>
 
 <body>
@@ -27,34 +29,37 @@
         </nav>
     </header>
 
-    <section>
-        <h1>今月のトップページビュー</h1>
-        <article>
-            <h2>iOS（Swift）プログラミング入門 #04</h2>
-            StoryBoardの基礎
-        </article>
-    </section>
+    <main>
+        <section>
+            <h1>今月のトップページビュー</h1>
+            <article>
+                <h2>iOS（Swift）プログラミング入門 #04</h2>
+                StoryBoardの基礎
+            </article>
+        </section>
 
-    <section>
-        <h1>新着の勉強コンテンツ</h1>
-        <article>
-            <h2>Web(HTML+CSS)入門 #11</h2>
-            アウトラインを意識しよう
-        </article>
-        <article>
-            <h2>Web(HTML+CSS)入門 #10</h2>
-            スタイルとCSSについて
-        </article>
-    <section>
+        <section>
+            <h1>新着の勉強コンテンツ</h1>
+            <article>
+                <h2>Web(HTML+CSS)入門 #11</h2>
+                アウトラインを意識しよう
+            </article>
+            <article>
+                <h2>Web(HTML+CSS)入門 #10</h2>
+                スタイルとCSSについて
+            </article>
+        </section>
 
-    <aside>
-        <h1>おすすめの勉強本</h1>
-        Webデザインの新しい教科書
-        HTML5+CSS3の新しい教科書
-    </aside>
+        <aside>
+            <h1>おすすめの勉強本</h1>
+            Webデザインの新しい教科書
+            HTML5+CSS3の新しい教科書
+        </aside>
+
+    </main>
 
     <footer>
-        Copyright ©2015 Crunchtimer Inc. All Rights Reserved.
+        Copyright ©2016 Crunchtimer Inc. All Rights Reserved.
     </footer>
 
 </body>

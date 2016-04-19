@@ -1,0 +1,74 @@
+<!--
+【テーブル】
+    table: テーブル全体
+    thead: テーブルヘッダー
+    tbody: テーブルコンテンツ
+    tr: table row（行）
+    th: table header
+    td: table data
+    colspan: 結合（行）
+    rowspan: 結合（列）
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf8">
+    <meta name="description" content="初めてHTMLを勉強するサイトです。">
+    <meta name="author" content="広島コンピュータ専門学校">
+    <meta name="keyword" content="html,css,勉強,初心者,初めて,Web,ホームページ">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>プログラミングの勉強</title>
+</head>
+
+<body>
+    <header>
+        <h1>プログラミングを勉強しよう！</h1>
+        <nav>
+            - ホーム
+            - このサイトについて
+            - プロフィール
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1 id="top">Web(HTML+CSS)入門 #10</h1>
+            <h2>おすすめの書籍</h2>
+
+            <br>
+
+            <table border="1px solid #000">
+                <caption>売れ筋トップ3</caption>
+                <thead>
+                    <tr>
+                        <th>出版社</th><th>書籍名</th><th>値段</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>扶桑社</td><td>サルでもわかる初めてのHTML</td><td>1600円</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">講談社</td><td>ひとりでできたHTML5</td><td>2000円</td>
+                    </tr>
+                    <tr>
+                        <td>これからのモダンWebとCSS3</td><td>3200円</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">キッズ向けは無料で配布します。</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+
+        </article>
+    </main>
+
+    <footer>
+        Copyright ©2016 Crunchtimer Inc. All Rights Reserved.
+    </footer>
+</body>
+</html>

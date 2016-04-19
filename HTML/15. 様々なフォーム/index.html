@@ -1,0 +1,102 @@
+<!--
+【様々なフォーム】
+    text: テキスト
+    button: ボタン
+    submit: 送信ボタン（actionの実行）
+    password: パスワード
+    file: ファイル
+    checkbox: チェックボックス
+    radio: ラジオボタン
+    textarea: 複数行テキスト
+    select: プルダウン選択メニュー
+    hidden: 隠しデータ
+
+HTML5
+    email: Eメール
+    url: URL
+    tel: 電話
+    date: 日付
+    time: 時刻
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf8">
+    <meta name="description" content="初めてHTMLを勉強するサイトです。">
+    <link rel="stylesheet" href="style.css">
+    <title>プログラミングの勉強</title>
+</head>
+
+<body>
+    <header>
+        <h1>プログラミングを勉強しよう！</h1>
+        <nav>
+            - ホーム
+            - このサイトについて
+            - プロフィール
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <h2>様々なフォーム</h2>
+
+            <form action="form.php" method="post">
+
+                <p>お名前：<input type="text" name="name" size="60" placeholder="広島太郎"></p>
+                <p>Eメール：<input type="email" placeholder="sasaki@crunchtimer.jp" required></p>
+                <p>パスワード：<input type="password"></p>
+                <p>
+                    住所：
+                    <select name="example">
+                        <option value="tokyo">東京</option>
+                        <option value="osaka">大阪</option>
+                        <option value="hiroshima">広島</option>
+                    </select>
+                </p>
+                <p>お電話：<input type="tel" maxlength="11"required></p>
+                <p>誕生日：<input type="date"></p>
+                <p>希望時刻：<input type="time"></p>
+                <br>
+
+                <p>
+                    <b>ご利用頻度</b><br>
+                    <input type="checkbox" name="check">初めて
+                    <input type="checkbox" name="check">週1回程度
+                    <input type="checkbox" name="check">月1回程度
+                </p>
+
+                <br>
+
+                <p>
+                    <b>性別：</b><br>
+                    <input type="radio" name="gender" checked>男性
+                    <input type="radio" name="gender">女性
+                    <input type="radio" name="gender">回答しない
+                </p>
+
+                <br>
+
+                <p>
+                    <b>お問い合わせ内容：</b></br>
+                    <textarea rows="5" cols="100" placeholder="ご意見・ご感想をお聞かせください"></textarea>
+                </p>
+                <br>
+
+                <p>添付ファイル：<input type="file"></p>
+                <p><input type="button" value="ボタン"></p>
+                <p><input type="submit" value="送信ボタン"></p>
+
+                <p><input type="hidden" name="userId" value="123"></p>
+            </form>
+
+        </article>
+    </main>
+
+    <footer>
+        Copyright ©2016 Crunchtimer Inc. All Rights Reserved.
+    </footer>
+</body>
+</html>

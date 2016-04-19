@@ -1,43 +1,58 @@
 【講義の内容とゴール】
 
-* 講義：ホームページ（Webサイト）を作る授業
-  ⇛ 全8回で作れるようになっていきましょう。
+* 目的：プログラミングを"体験"してもらい、どんなものかを感じ取ってもらう。
 
-* ゴール：こんなホームページが作れるようになります。
-  ⇛ 実際作るホームページを見せる
+* 講義：ホームページ（Webサイト）を作る授業
+    ⇛ 全8回のカリキュラムを想定
+
+* ゴール：ホームページ例
 
 * カリキュラム：HTML・CSSという言語
-  ⇛ 言語は2つだけ。かなり基礎的な内容。
-  ⇛ 実際にブラウザで表示できる（右クリック）
+    ⇛ 言語は2つだけ。かなり基礎的な内容。
+    ⇛ 実際にブラウザで表示（右クリック ⇛ ソースを表示）
+
+* 講義の進め方：
+    ・プロジェクターでタイピングして見せます。
+    ・同じように手元のPCでタイピングして体験してもらう。
+    ・いろいろ説明しますが、後で教材は配るので特にメモなどはとらなくて大丈夫です。
 
 * 困ったらググる
-  ⇛ プログラミングの能力はググる能力と言ってもいいぐらい。
-    ググればたいていは解決します。
+    ⇛ プログラミングの能力はググる能力と言ってもいいぐらい。
+        ググればたいていは解決します。
 
 * 施設利用の注意事項
-  ⇛ お手洗いは出てすぐのところにあります。(お好きなタイミングでどうぞ)
-  ⇛ 講義中にわからないところがあれば遠慮なく聞いてください。
-    全員がわからないことが無いように進めたいので、私以外も隣の方などに積極的に聞いてください。
-  ⇛ 利用中の施設は普段仕事で使っていますので、置いてあるものには手を触れないようにして下さい。
-  ⇛ 講義は2時間を予定していますが、終わった後にも個別に質問を受付ますので遠慮なくどうぞ。
+    ⇛ お手洗いは出てすぐのところにあります。(お好きなタイミングでどうぞ)
+    ⇛ 講義中にわからないところがあれば遠慮なく聞いてください。
+        全員がわからないことが無いように進めたいので、私以外も隣の方などに積極的に聞いてください。
+    ⇛ 利用中の施設は普段仕事で使っていますので、置いてあるものには手を触れないようにして下さい。
+    ⇛ 講義は2時間を予定していますが、終わった後にも個別に質問を受付ますので遠慮なくどうぞ。
 
 【環境構築】
 
 * WiFiの設定
-  portinc: hintmay5
-  crunchtimer: crunchtimer
+    portinc: hintmay5
+    crunchtimer: crunchtimer
 
 * ブラウザ：Google Chrome（ブラウザによって挙動がまちまちなので）
 
-* エディタ：Atom
+* エディタ：Atom（"Atom"で検索）
 
 * 拡張子：表示のさせ方
-  ググりましょう。
-  mac: http://inforati.jp/apple/mac-tips-techniques/system-hints/how-to-show-the-filename-extension-of-a-file-always-in-macos.html
-  win: https://www.microsoft.com/ja-jp/atlife/tips/archive/windows/tips/252.aspx
+    ググりましょう。
+    mac: http://inforati.jp/apple/mac-tips-techniques/system-hints/how-to-show-the-filename-extension-of-a-file-always-in-macos.html
+    win: https://www.microsoft.com/ja-jp/atlife/tips/archive/windows/tips/252.aspx
 
-* エディタの設定
-  ⇛ ファイルのエンコーディングをUTF8
-  ⇛ [Show Line Numbers]
-  ⇛ japanese-wrap
-  ⇛ Tree-Viewの設定（パッケージ -> Tree View -> Toggle）
+* ATOMエディタの設定
+    ⇛ ファイルのエンコーディングをUTF8
+    ⇛ [Show Line Numbers]
+    ⇛ Tab Length を "4" に設定
+    ⇛ パッケージ「japanese-wrap」：日本語の改行などをいい感じに表示してくれる
+    ⇛ パッケージ「show-ideographic-space」：全角空白を表示するプラグイン
+    ⇛ Tree-Viewの設定（パッケージ -> Tree View -> Toggle）
+
+* 用語
+    ・ブラウザ：ホームページを見るアプリ
+    ・エディタ：プログラムをタイピングしていくメモ帳
+    ・ソースコード：特定の言語でプログラミングした文章
+    ・HTMLソース：HTML言語で書かれたソースコード（.html）
+    ・CSSソース：CSS言語で書かれたソースコード（.css）

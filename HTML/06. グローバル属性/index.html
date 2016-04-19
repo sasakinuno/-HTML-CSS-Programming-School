@@ -1,23 +1,29 @@
 <!--
-グローバル属性
-id: ページ内に一つしかない要素
-class: 複数ある要素
-style: スタイルを直接指定
+【グローバル属性（特定のタグに設定する属性）】
+    id: ページ内に一つしかない要素
+        ⇛ ページ内ジャンプ、他のプログラムが要素を取得、スタイル
+
+    class: 複数ある要素（複数の指定が可能）
+        ⇛ 主にスタイル
+
+    style: スタイルを直接指定
 -->
 
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf8">
-  <meta name="description" content="初めてのHTML文書です">
-  <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="style.css">
-  <title>はじめてのHTML</title>
+    <meta charset="utf8">
+    <meta name="description" content="初めてのHTML文書です">
+    <meta name="author" content="クランチタイマー">
+    <meta name="keyword" content="html,css,勉強,初心者,初めて,Web,ホームページ">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>はじめてのHTML</title>
 </head>
 
 <body>
-  <p id="message">こんにちは1！</p>
-  <p class="message active">こんにちは2！</p>
-  <p class="message active" style="color: white">こんにちは3！</p>
+    <p id="message">こんにちは1！</p>
+    <p class="msg active">こんにちは2！</p>
+    <p class="msg" style="color: white">こんにちは3！</p>
 </body>
 </html>

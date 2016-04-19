@@ -1,0 +1,53 @@
+<!--
+【フォームの基礎】
+    form: 入力フォーム
+        action: どこに送るか？
+        method: 送る方法
+        input: 入力タグ
+            type: 種別
+            size: サイズ
+            maxlenght: 最大入力値
+            placeholder: 入力例
+            password: パスワード
+            hidden: 隠しデータ
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf8">
+    <meta name="description" content="初めてHTMLを勉強するサイトです。">
+    <link rel="stylesheet" href="style.css">
+    <title>プログラミングの勉強</title>
+</head>
+
+<body>
+    <header>
+        <h1>プログラミングを勉強しよう！</h1>
+        <nav>
+            - ホーム
+            - このサイトについて
+            - プロフィール
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <h2>ログイン</h2>
+
+            <form action="form.php" method="post">
+                <p>メールアドレス：<input type="text" name="email" size="50" maxlength="5" placeholder="enter email please!"></p>
+                <p>パスワード：<input type="password" name="password" size="20"></p>
+                <input type="hidden" name="userid" value="123456">
+                <p><input type="submit" value="送信"></p>
+            </form>
+
+        </article>
+    </main>
+
+    <footer>
+        Copyright ©2016 Crunchtimer Inc. All Rights Reserved.
+    </footer>
+</body>
+</html>

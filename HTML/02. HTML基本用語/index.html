@@ -1,17 +1,35 @@
 <!--
+【基本的な用語】
+    HTML（Hyper Text Markup Language）言語
 
-基本的な用語
+    1. タグ
+    2. 属性
+        <タグ>文章</タグ>
+        <タグ 属性名="値" 属性名="値">文章</タグ>
+    3. 入れ子構造
+    4. コメント
 
-HTML（Hyper Text Markup Language）言語
-
-1. タグ
-2. 属性
-
-<タグ>文章</タグ>
-<タグ 属性名="値" 属性名="値">文章</タグ>
-
-3. コメント
+【タイピング】
+    タブキー：インデント入力
 -->
 
+Hello World!
+Hello World!
+
+<p>Hello World!</p>
+<p>Hello World!</p>
 <p class="message">Hello World!</p>
+
+<!-- 入れ子：OK -->
+<div>
+    <p>Hello World!</p>
+</div>
+
+<!-- 入れ子：NG -->
+<p>
+<div>
+    Hello World!
+</p>
+</div>
+
 <!-- ここはハローワールドです。 -->
