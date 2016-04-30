@@ -1,0 +1,8 @@
+/*
+【属性セレクタ】
+    セレクタは属性に対しても指定可能
+*/
+
+a[title] { color: red; }
+a[href="http://google.com"] { color: red; }
+a[class~="search"] { color: red; }

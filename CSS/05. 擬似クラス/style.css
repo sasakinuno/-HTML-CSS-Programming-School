@@ -1,0 +1,18 @@
+/*
+【擬似クラス】
+    「擬似クラス」とは要素が特定の状態にあるときに、スタイルを適用するセレクタ。
+
+    first-child: 最初の要素
+    link: 未訪問
+    visited: 訪問済み
+    hover: マウスオーバー
+    active: クリック中
+    focus: フォーカス中
+*/
+
+ul li:first-child { color: red; }
+a:link { color: blue; }
+a:visited { color: green; }
+a:hover { color: pink; }
+a:active { color: orange; }
+input:focus { background: skyblue; }

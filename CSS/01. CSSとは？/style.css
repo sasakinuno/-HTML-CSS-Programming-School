@@ -1,0 +1,16 @@
+/*
+【CSSとは？】
+
+    CSS: Cascading Style Sheets
+    最新バージョン: CSS3
+
+    ホームページ = HTML（構造的な文書）+ CSS（見た目）
+
+    記入場所
+        ・headタグ
+        ・直接pタグに
+        ・cssファイル
+*/
+p {
+    color: green;
+}

@@ -1,0 +1,33 @@
+/*
+【セレクタとプロパティ】
+    セレクタ {
+        プロパティ名: 値;
+    }
+    ・: コロン
+    ・; セミコロン
+    ・字下げをする
+
+    - セレクタ
+        *: 全て
+        div h1 p: 要素名
+        #id: idは#をつける
+        .class: classは.(ドット)をつける
+
+    - コメントの書き方
+*/
+
+* {
+    color: green;
+}
+
+h1 {
+    color: green;
+}
+
+#first {
+    color: yellow;
+}
+
+.points {
+    color: red;
+}

@@ -1,0 +1,16 @@
+/*
+【セレクタの細かい指定】
+    セレクタ
+    a, b : aとbどちらも
+    a b : aの中のb
+    a > b : aの直下のb
+    a + b : aの次の要素のb
+    ab : aかつbのみ
+
+*/
+
+h1, p { color: red; }
+div span { color: red; }
+div > span { color: red; }
+p + p { color: red; }
+p.points { color: red; }

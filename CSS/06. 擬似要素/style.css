@@ -1,0 +1,20 @@
+/*
+【擬似要素】
+    「擬似要素」とは要素内の文字や行を対象にスタイルを指定するものです。
+
+    first-line: 1行目の指定
+    first-letter: 1文字目
+    before: 要素の前に付与
+    after: 要素の後に付与
+*/
+
+p:first-line { color: red; }
+p:first-letter { color: red; }
+
+p:before {
+    content: " ==>";
+}
+
+p:after {
+    content: " <==";
+}
